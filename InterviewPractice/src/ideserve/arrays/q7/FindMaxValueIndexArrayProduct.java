@@ -1,7 +1,7 @@
 package ideserve.arrays.q7;
 
 /**
- * Created by justenpinto on 2017-07-06.
+ * http://www.ideserve.co.in/learn/maximum-value-of-index-element-product-sum-with-only-rotations
  */
 public class FindMaxValueIndexArrayProduct {
 

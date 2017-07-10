@@ -1,7 +1,7 @@
 package ideserve.arrays.q10;
 
 /**
- * Created by justenpinto on 2017-07-07.
+ * http://www.ideserve.co.in/learn/maximum-average-subarray
  */
 public class FindMaxSumSubArray {
 

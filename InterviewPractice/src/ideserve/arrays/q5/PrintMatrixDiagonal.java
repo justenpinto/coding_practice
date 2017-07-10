@@ -1,7 +1,7 @@
 package ideserve.arrays.q5;
 
 /**
- * Created by justenpinto on 2017-07-05.
+ * http://www.ideserve.co.in/learn/print-matrix-diagonally
  */
 public class PrintMatrixDiagonal {
 

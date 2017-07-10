@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by justenpinto on 2017-07-06.
+ * http://www.ideserve.co.in/learn/find-the-nth-most-frequent-number-in-array
  */
 public class FindNthNumberOccurrence {
 

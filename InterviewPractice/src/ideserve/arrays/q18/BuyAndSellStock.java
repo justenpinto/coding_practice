@@ -1,7 +1,7 @@
 package ideserve.arrays.q18;
 
 /**
- * Created by justenpinto on 2017-07-10.
+ * http://www.ideserve.co.in/learn/buy-and-sell-stock-part-one
  */
 public class BuyAndSellStock {
 
@@ -10,6 +10,12 @@ public class BuyAndSellStock {
         System.out.println("Profit: " + profit);
     }
 
+    /**
+     * O(n) runtime
+     * O(1) space
+     * @param stockPrices
+     * @return
+     */
     private static int findBestProfit(int[] stockPrices) {
         int profit = 0;
         int minimumPrice = stockPrices[0];

@@ -1,7 +1,7 @@
 package ideserve.arrays.q6;
 
 /**
- * Created by justenpinto on 2017-07-05.
+ * http://www.ideserve.co.in/learn/number-of-clusters-of-1s
  */
 public class NumberOfIslands {
 

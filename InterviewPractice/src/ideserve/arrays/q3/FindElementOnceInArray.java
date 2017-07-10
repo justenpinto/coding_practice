@@ -1,7 +1,7 @@
 package ideserve.arrays.q3;
 
 /**
- * Created by justenpinto on 2017-07-05.
+ * http://www.ideserve.co.in/learn/find-the-element-that-appears-once-in-an-array
  */
 public class FindElementOnceInArray {
 

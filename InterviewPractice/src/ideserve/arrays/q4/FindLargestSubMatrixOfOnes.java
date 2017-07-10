@@ -3,7 +3,7 @@ package ideserve.arrays.q4;
 import static java.lang.Math.min;
 
 /**
- * Created by justenpinto on 2017-07-05.
+ * http://www.ideserve.co.in/learn/maximum-size-square-sub-matrix-with-all-1s
  */
 public class FindLargestSubMatrixOfOnes {
 

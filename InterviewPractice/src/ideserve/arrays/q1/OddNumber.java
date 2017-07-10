@@ -1,7 +1,7 @@
 package ideserve.arrays.q1;
 
 /**
- * Created by justenpinto on 2017-07-05.
+ * http://www.ideserve.co.in/learn/find-the-number-which-occurs-odd-number-of-times
  */
 public class OddNumber {
 

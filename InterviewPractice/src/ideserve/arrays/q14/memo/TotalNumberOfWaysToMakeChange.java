@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by justenpinto on 2017-07-09.
+ * http://www.ideserve.co.in/learn/coin-change-problem-number-of-ways-to-make-change
  */
 public class TotalNumberOfWaysToMakeChange {
 
@@ -21,6 +21,15 @@ public class TotalNumberOfWaysToMakeChange {
         System.out.println("Ways to make change: " + ways + ". Performance = " + (totalTime / n) / 1000000d + "ms");
     }
 
+    /**
+     * O(n*m) runtime, 'n' is total amount, 'm' is number of coins
+     * O(n*m) space
+     * @param coins
+     * @param index
+     * @param amount
+     * @param memo
+     * @return
+     */
     private static int makeChange(int[] coins, int index, int amount, Map<AmountCoins, Integer> memo) {
         if (amount == 0) {
             return 1;

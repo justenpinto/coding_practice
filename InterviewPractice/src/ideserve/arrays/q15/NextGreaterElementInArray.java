@@ -3,7 +3,7 @@ package ideserve.arrays.q15;
 import java.util.Stack;
 
 /**
- * Created by justenpinto on 2017-07-09.
+ * http://www.ideserve.co.in/learn/next-great-element-in-an-array
  */
 public class NextGreaterElementInArray {
 

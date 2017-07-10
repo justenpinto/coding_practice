@@ -1,7 +1,7 @@
 package ideserve.arrays.q11.recursive;
 
 /**
- * Created by justenpinto on 2017-07-07.
+ * http://www.ideserve.co.in/learn/set-partition-problem-recursion
  */
 public class ValidEqualSumSets {
 

@@ -1,7 +1,7 @@
 package ideserve.arrays.q16.recursive;
 
 /**
- * Created by justenpinto on 2017-07-09.
+ * http://www.ideserve.co.in/learn/minimum-cost-path
  */
 public class MinimumCostPath {
 

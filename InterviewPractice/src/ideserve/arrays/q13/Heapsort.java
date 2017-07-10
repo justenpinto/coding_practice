@@ -1,7 +1,7 @@
 package ideserve.arrays.q13;
 
 /**
- * Created by justenpinto on 2017-07-08.
+ * http://www.ideserve.co.in/learn/heap-sort
  */
 public class Heapsort {
 

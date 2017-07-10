@@ -1,7 +1,7 @@
 package ideserve.arrays.q2;
 
 /**
- * Created by justenpinto on 2017-07-05.
+ * http://www.ideserve.co.in/learn/find-the-missing-number-in-the-duplicate-array
  */
 public class MissingNumberInDuplicateArray {
 

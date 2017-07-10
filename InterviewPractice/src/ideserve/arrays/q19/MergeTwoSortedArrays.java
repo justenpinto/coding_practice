@@ -1,7 +1,7 @@
 package ideserve.arrays.q19;
 
 /**
- * Created by justenpinto on 2017-07-10.
+ * http://www.ideserve.co.in/learn/merge-two-sorted-arrays-without-extra-space
  */
 public class MergeTwoSortedArrays {
 
@@ -11,6 +11,13 @@ public class MergeTwoSortedArrays {
         printArray(mergeArrays(new int[]{-3,5,INVALID_NUM,7,INVALID_NUM,10,INVALID_NUM,11,INVALID_NUM}, new int[]{-1,2,6,12}));
     }
 
+    /**
+     * O(n) runtime
+     * O(1) space
+     * @param a
+     * @param b
+     * @return
+     */
     private static int[] mergeArrays(int[] a, int[] b) {
         int count = 0;
         for (int i = 0; i < a.length; i++) {

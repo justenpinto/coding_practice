@@ -1,7 +1,7 @@
 package ideserve.arrays.q12.linear;
 
 /**
- * Created by justenpinto on 2017-07-07.
+ * http://www.ideserve.co.in/learn/find-common-elements-in-n-sorted-arrays
  */
 public class FindCommentElementsInNSortedArrays {
 

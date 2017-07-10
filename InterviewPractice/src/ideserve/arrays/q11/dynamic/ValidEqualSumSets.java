@@ -1,7 +1,7 @@
 package ideserve.arrays.q11.dynamic;
 
 /**
- * Created by justenpinto on 2017-07-07.
+ * http://www.ideserve.co.in/learn/set-partition-problem-dynamic-programming
  */
 public class ValidEqualSumSets {
 

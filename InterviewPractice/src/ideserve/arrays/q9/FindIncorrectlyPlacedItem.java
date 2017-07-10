@@ -1,7 +1,7 @@
 package ideserve.arrays.q9;
 
 /**
- * Created by justenpinto on 2017-07-06.
+ * http://www.ideserve.co.in/learn/find-the-missing-number-in-the-increasing-sequence
  */
 public class FindIncorrectlyPlacedItem {
 
