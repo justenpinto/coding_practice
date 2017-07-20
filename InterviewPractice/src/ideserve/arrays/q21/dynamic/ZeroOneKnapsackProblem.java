@@ -41,8 +41,7 @@ public class ZeroOneKnapsackProblem {
                 if (i - item.weight >= 0 && !currentKnapsack.containsItem(item)) {
                     Knapsack previousKnapsack = values[i - item.weight];
                     if (previousKnapsack.value + item.value > currentKnapsack.value) {
-                        currentKnapsack.clear();
-                        currentKnapsack.mergeItems(previousKnapsack.items);
+                        currentKnapsack.clearAndMergeItems(previousKnapsack.items);
                         currentKnapsack.addItem(item);
                     }
                 }
@@ -74,16 +73,13 @@ public class ZeroOneKnapsackProblem {
             this.value += item.value;
         }
 
-        void mergeItems(List<Item> itemsToMerge) {
+        void clearAndMergeItems(List<Item> itemsToMerge) {
+            this.items.clear();
+            this.value = 0;
             for (Item item : itemsToMerge) {
                 this.items.add(item);
                 this.value += item.value;
             }
-        }
-
-        void clear() {
-            this.value = 0;
-            this.items.clear();
         }
     }
 
