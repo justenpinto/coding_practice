@@ -18,6 +18,14 @@ public class ZeroOneKnapsackProblem {
         getMaxValue(items, 10);
     }
 
+    /**
+     * O(w*i) runtime - 'w' is weight, 'i' is number of items
+     * O(w*i) space
+     *
+     * @param items
+     * @param weight
+     * @return
+     */
     private static int getMaxValue(List<Item> items, int weight) {
         int value = 0;
         int maxValueWeight = 0;
