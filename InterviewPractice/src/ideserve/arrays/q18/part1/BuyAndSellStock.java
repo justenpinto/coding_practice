@@ -1,4 +1,4 @@
-package ideserve.arrays.q18;
+package ideserve.arrays.q18.part1;
 
 /**
  * http://www.ideserve.co.in/learn/buy-and-sell-stock-part-one
