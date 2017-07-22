@@ -64,4 +64,8 @@ public class TreeUtils {
     public static boolean isLeaf(Node node) {
         return node.getLeft() == null && node.getRight() == null;
     }
+
+    public static boolean isRoot(Node node) {
+        return node.getParent() == null;
+    }
 }
