@@ -9,6 +9,9 @@ import java.util.Stack;
  */
 public class TreeUtils {
     public static Node createIntegerTree(int[] array) {
+        if (array == null || array.length == 0) {
+            return null;
+        }
         Node[] nodes = new Node[array.length];
         for (int i = 0; i < nodes.length; i++) {
             nodes[i] = new Node<>(array[i]);
@@ -28,6 +31,9 @@ public class TreeUtils {
     }
 
     public static Node<Integer> createIntegerBST(int[] array) {
+        if (array == null || array.length == 0) {
+            return null;
+        }
         Node<Integer> root = new Node<>(array[0]);
         for (int i = 1; i < array.length; i++) {
             addNode(root, array[i]);
