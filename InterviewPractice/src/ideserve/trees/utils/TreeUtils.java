@@ -22,4 +22,46 @@ public class TreeUtils {
         }
         return nodes[0];
     }
+
+    public static int getHeight(Node node) {
+        if (node == null) {
+            return 0;
+        }
+
+        return 1 + Math.max(getHeight(node.getRight()), getHeight(node.getLeft()));
+    }
+
+    public static void printPreOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        System.out.print(node.getValue() + " ");
+        printPreOrderTraversal(node.getLeft());
+        printPreOrderTraversal(node.getRight());
+    }
+
+    public static void printInOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        printInOrderTraversal(node.getLeft());
+        System.out.print(node.getValue() + " ");
+        printInOrderTraversal(node.getRight());
+    }
+
+    public static void printPostOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        printInOrderTraversal(node.getLeft());
+        printInOrderTraversal(node.getRight());
+        System.out.print(node.getValue() + " ");
+    }
+
+    public static boolean isLeaf(Node node) {
+        return node.getLeft() == null && node.getRight() == null;
+    }
 }

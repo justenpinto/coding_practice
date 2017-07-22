@@ -6,7 +6,7 @@ package ideserve.trees.generic;
 public class Node<T> {
 
     private T value;
-    private Node left, right;
+    private Node parent, left, right;
 
     public Node() {
 
@@ -22,12 +22,36 @@ public class Node<T> {
         this.right = right;
     }
 
+    public Node(T value, Node parent) {
+        this.value = value;
+        this.parent = parent;
+    }
+
+    public Node(Node parent) {
+        this.parent = parent;
+    }
+
+    public Node(T value, Node parent, Node left, Node right) {
+        this.value = value;
+        this.parent = parent;
+        this.left = left;
+        this.right = right;
+    }
+
     public T getValue() {
         return value;
     }
 
     public void setValue(T value) {
         this.value = value;
+    }
+
+    public Node getParent() {
+        return parent;
+    }
+
+    public void setParent(Node parent) {
+        this.parent = parent;
     }
 
     public Node<T> getLeft() {
