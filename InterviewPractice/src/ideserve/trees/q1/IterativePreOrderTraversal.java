@@ -21,6 +21,9 @@ public class IterativePreOrderTraversal {
      * @param root
      */
     private static void iterativePreOrderPrint(Node root) {
+        if (root == null) {
+            return;
+        }
         Stack<Node> stack = new Stack<>();
         stack.push(root);
 

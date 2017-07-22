@@ -15,10 +15,13 @@ public class RecursivePreOrderTraversal {
     /**
      * O(n) runtime
      * O(1) space
-     * 
+     *
      * @param node
      */
     private static void preOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
         System.out.print(node.getValue() + ",");
         if (node.getLeft() != null) {
             preOrderTraversal(node.getLeft());
