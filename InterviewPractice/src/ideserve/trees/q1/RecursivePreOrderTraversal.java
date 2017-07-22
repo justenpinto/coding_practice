@@ -9,7 +9,7 @@ import ideserve.trees.utils.TreeUtils;
 public class RecursivePreOrderTraversal {
 
     public static void main(String[] args) {
-        preOrderTraversal(TreeUtils.createTree(new int[]{6,4,9,3,5,8}));
+        preOrderTraversal(TreeUtils.createIntegerTree(new int[]{6,4,9,3,5,8}));
     }
 
     /**

@@ -11,7 +11,7 @@ import java.util.Stack;
 public class SpiralOrderTraversalExtraSpaceAllowed {
 
     public static void main(String[] args) {
-        spiralTraversal(TreeUtils.createTree(new int[]{0,1,2,4,5,3,6,7,8,9}));
+        spiralTraversal(TreeUtils.createIntegerTree(new int[]{0,1,2,4,5,3,6,7,8,9}));
     }
 
     /**

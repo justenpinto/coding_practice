@@ -11,7 +11,7 @@ import java.util.Stack;
 public class IterativePreOrderTraversal {
 
     public static void main(String[] args) {
-        Node root = TreeUtils.createTree(new int[]{6,4,9,3,5,8});
+        Node root = TreeUtils.createIntegerTree(new int[]{6,4,9,3,5,8});
         iterativePreOrderPrint(root);
     }
 
