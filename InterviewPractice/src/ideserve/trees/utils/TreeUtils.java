@@ -2,6 +2,8 @@ package ideserve.trees.utils;
 
 import ideserve.trees.generic.Node;
 
+import java.util.Stack;
+
 /**
  * Tree Util class for Trees package
  */
@@ -23,6 +25,30 @@ public class TreeUtils {
             }
         }
         return nodes[0];
+    }
+
+    public static Node<Integer> createIntegerBST(int[] array) {
+        Node<Integer> root = new Node<>(array[0]);
+        for (int i = 1; i < array.length; i++) {
+            addNode(root, array[i]);
+        }
+        return root;
+    }
+
+    private static void addNode(Node<Integer> current, int value) {
+        if (value < current.getValue()) {
+            if (current.hasLeft()) {
+                addNode(current.getLeft(), value);
+            } else {
+                current.setLeft(new Node<>(value, current));
+            }
+        } else if (value > current.getValue()) {
+            if (current.hasRight()) {
+                addNode(current.getRight(), value);
+            } else {
+                current.setRight(new Node<>(value, current));
+            }
+        }
     }
 
     public static int getHeight(Node node) {

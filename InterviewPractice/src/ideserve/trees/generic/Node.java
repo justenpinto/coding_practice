@@ -54,12 +54,20 @@ public class Node<T> {
         this.parent = parent;
     }
 
+    public boolean hasParent() {
+        return parent != null;
+    }
+
     public Node<T> getLeft() {
         return left;
     }
 
     public void setLeft(Node left) {
         this.left = left;
+    }
+
+    public boolean hasLeft() {
+        return left != null;
     }
 
     public Node<T> getRight() {
@@ -69,4 +77,9 @@ public class Node<T> {
     public void setRight(Node right) {
         this.right = right;
     }
+
+    public boolean hasRight() {
+        return right != null;
+    }
+
 }
