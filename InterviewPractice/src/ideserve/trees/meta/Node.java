@@ -1,4 +1,4 @@
-package ideserve.trees.generic;
+package ideserve.trees.meta;
 
 /**
  * Generic Node class for tree questions
@@ -34,6 +34,11 @@ public class Node<T> {
     public Node(T value, Node parent, Node left, Node right) {
         this.value = value;
         this.parent = parent;
+        this.left = left;
+        this.right = right;
+    }
+
+    public Node(Node left, Node right) {
         this.left = left;
         this.right = right;
     }

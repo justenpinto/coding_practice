@@ -1,8 +1,6 @@
 package ideserve.trees.utils;
 
-import ideserve.trees.generic.Node;
-
-import java.util.Stack;
+import ideserve.trees.meta.Node;
 
 /**
  * Tree Util class for Trees package
@@ -101,5 +99,13 @@ public class TreeUtils {
 
     public static boolean isRoot(Node node) {
         return node.getParent() == null;
+    }
+
+    public static int getNumberOfNodesInTree(Node node) {
+        if (node == null) {
+            return 0;
+        }
+
+        return 1 + getNumberOfNodesInTree(node.getLeft()) + getNumberOfNodesInTree(node.getRight());
     }
 }

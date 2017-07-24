@@ -1,6 +1,6 @@
 package ideserve.trees.q1;
 
-import ideserve.trees.generic.Node;
+import ideserve.trees.meta.Node;
 import ideserve.trees.utils.TreeUtils;
 
 import java.util.Stack;

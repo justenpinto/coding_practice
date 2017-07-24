@@ -1,6 +1,6 @@
 package ideserve.trees.q3;
 
-import ideserve.trees.generic.Node;
+import ideserve.trees.meta.Node;
 import ideserve.trees.utils.TreeUtils;
 
 /**
