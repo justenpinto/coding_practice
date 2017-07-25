@@ -108,4 +108,15 @@ public class TreeUtils {
 
         return 1 + getNumberOfNodesInTree(node.getLeft()) + getNumberOfNodesInTree(node.getRight());
     }
+
+    public static boolean isTreeBalanced(Node node) {
+        if (node == null) {
+            return true;
+        }
+        else if (Math.abs(getHeight(node.getLeft()) - getHeight(node.getRight())) <= 1
+                && isTreeBalanced(node.getLeft()) && isTreeBalanced(node.getRight())) {
+            return true;
+        }
+        return false;
+    }
 }
