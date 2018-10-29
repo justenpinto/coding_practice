@@ -3,6 +3,7 @@ Let's write a function to tell us if a full deck of cards shuffled_deck is a sin
 halves half1 and half2.
 """
 
+
 def is_single_riffle(shuffled_deck, half1, half2):
     """
     Runtime: O(n)
@@ -38,4 +39,4 @@ def is_single_riffle(shuffled_deck, half1, half2):
 
 
 if __name__ == '__main__':
-    print(is_single_riffle([]))
+    pass
