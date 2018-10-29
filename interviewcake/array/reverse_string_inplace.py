@@ -4,7 +4,8 @@ Write a function that takes a list of characters and reverses the letters in pla
 
 def reverse_string_inplace(characters):
     """
-    Runtime: O(n) Space: O(1)
+    Runtime: O(n)
+    Space: O(1)
 
     We swap the first and last characters, then the second and second-to-last characters,
     and so on until we reach the middle.

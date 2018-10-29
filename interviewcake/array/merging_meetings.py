@@ -29,7 +29,8 @@ start_time and end_time don't have an upper bound.
 
 def merge_ranges(meetings):
     """
-    Runtime: O(n lg n) Space: O(n)
+    Runtime: O(n lg n)
+    Space: O(n)
 
     First, we sort our input list of meetings by start time so any meetings that might need to be merged are now next to
     each other.
