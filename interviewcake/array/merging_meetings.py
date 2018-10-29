@@ -28,7 +28,18 @@ start_time and end_time don't have an upper bound.
 """
 
 def merge_ranges(meetings):
-    """Runtime: O(n lg n) Space: O(n)"""
+    """
+    Runtime: O(n lg n) Space: O(n)
+
+    First, we sort our input list of meetings by start time so any meetings that might need to be merged are now next to
+    each other.
+
+    Then we walk through our sorted meetings from left to right. At each step, either:
+
+    1. We can merge the current meeting with the previous one, so we do.
+    2. We can't merge the current meeting with the previous one, so we know the previous meeting can't be merged with
+    any future meetings and we throw the current meeting into merged_meetings.
+    """
     sorted_meetings = sorted(meetings, key=lambda tup: tup[0])
     print("Meeting: %s - %s" % (meetings[0]))
     new_meetings = [meetings[0]]
