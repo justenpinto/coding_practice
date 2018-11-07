@@ -1,0 +1,1 @@
+A triangular series will have total number of elemnts of "(n + 1) * (n / 2)"
