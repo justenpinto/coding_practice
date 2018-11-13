@@ -41,6 +41,7 @@ class TempTracker:
 
 
 if __name__ == '__main__':
+    print(5 << 2)
     x = TempTracker()
     x.insert(1)
     x.insert(2)
